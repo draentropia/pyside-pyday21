@@ -10,6 +10,6 @@ The different steps to create a "Christmas expenses" book are ennumerated from 0
 Install PySide6 from pip, typing
 ```pip install PySide6```
 and execute the different steps just typing in the terminal
-```python 01-fist_execution.py```
+```python 01-fist_execution.py``` (or the one you want to execute).
 
 As it is a GUI example, it will not work in docker containers, WSL2 consoles and similar environments.
