@@ -7,9 +7,9 @@ The aim of the workshop included in this report is to generate a "Christmas expe
 The different steps to create a "Christmas expenses" book are ennumerated from 01 to 06. All the code added on each step was marked with a comment.
 
 ## How to use it?
-Install PySide6 from pip:
+Install PySide6 from pip, typing
 ```pip install PySide6```
-And execute the different steps just typing in the terminal:
+and execute the different steps just typing in the terminal
 ```python 01-fist_execution.py```
 
 As it is a GUI example, it will not work in docker containers, WSL2 consoles and similar environments.
