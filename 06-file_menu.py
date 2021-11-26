@@ -109,7 +109,7 @@ class MainWindow(QMainWindow):
     def save_data(self, checked):
         rows = self.ui.tableWidget.rowCount()
         if rows:
-            with open("data.csv", "w") as f:
+            with open("data.csv", "w", newline="") as f:
                 writer = csv.writer(f, delimiter=',', quotechar='"',
                                     quoting=csv.QUOTE_ALL)
                 for i in range(rows):
